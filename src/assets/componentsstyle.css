@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+
+body {
+    background-color: #080f2b;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.todoItem {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    padding: 20px;
+    background-color: #141a38;
+    border-radius: 8px;
+    margin: 10px 0;
+    align-items: center;
+}
+
+* {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+header {
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    /* background-color: #080f2b; */
+}
+
+#btn {
+    margin-top: 10px;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.main {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.actionsContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+/* Specific styles for MUI TextField */
+.MuiInputBase-input {
+    color: #ffffff !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.MuiOutlinedInput-root {
+    & fieldset {
+        border-color: #ffffff !important;
+        font-family: 'Poppins', sans-serif !important;
+    }
+
+    &:hover fieldset {
+        border-color: #ffffff !important;
+    }
+
+    &.Mui-focused fieldset {
+        border-color: #ffffff !important;
+    }
+}
+
+.MuiInputLabel-root {
+    color: #ffffff !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+input {
+    color: #ffffff;
+}
+
+input::placeholder {
+    color: #b0b3c5;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #1c1f2b inset !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+
+.actionsContainer .fa-pen-to-square {
+    color: #4caf50;
+    transition: color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.actionsContainer .fa-pen-to-square:hover {
+    color: #388e3c;
+    transform: scale(1.2);
+}
+
+.actionsContainer .fa-trash {
+    color: #f44336;
+    transition: color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.actionsContainer .fa-trash:hover {
+    color: #d32f2f;
+    transform: scale(1.2);
+}
