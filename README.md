@@ -39,13 +39,13 @@ A simple, minimalistic to-do list application where users can create, edit, and 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/todos-app.git
+    git clone https://github.com/vjymisal0/local-storage-todos.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd todos-app
+    cd local-storage-todos
     ```
 
 3. Install dependencies:
